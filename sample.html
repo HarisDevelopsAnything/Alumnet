@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js"></script>
+    <!--Google fonts (Poppins)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="headerBar" className="styledDiv">
+        <h1 class="glassy">Welcome to Alumnet!😄</h1>
+        <h2 class="glassy">A place where alumni and institutions meet.</h2>
+    </div>
+    <div class="horizontalFlexBox">
+        <div class="loginBox">
+            <h1>Existing user?</h1>
+            <h2>Welcome back!</h2>
+            <div class="dataEntryHorizontal">
+                <p>Username:</p>
+                <input class="flatInput" placeholder="Enter username"/>
+            </div>
+            <div class="dataEntryHorizontal">
+                <p>Password:</p>
+                <input class="flatInput" placeholder="Enter password" type="password"/>
+            </div>
+            <button class="minimalButton">Login</button>
+        </div>
+        <div class="registerBox">
+            <h1>Newcomer?</h1>
+            <h2>Hello there!</h2>
+            <div class="dataEntryHorizontal">
+                <p>First name*:</p>
+                <input class="flatInput" placeholder="eg. John"/>
+                <p>Last name*:</p>
+                <input class="flatInput" placeholder="eg. Doe"/>
+            </div>
+            <div class="dataEntryHorizontal">
+                <p>Batch*:</p>
+                <input class="flatInput" placeholder="eg. 2024" type="number"/>
+            </div>
+            <div class="dataEntryHorizontal">
+                <p>Email:</p>
+                <input class="flatInput" placeholder="abc@xyz"/>
+                <p>Mobile*:</p>
+                <input class="flatInput" placeholder="1234567890"/>
+            </div>
+            <div class="dataEntryHorizontal">
+                <p>Profession:</p>
+                <input class="flatInput" placeholder="eg. Professor"/>
+            </div>
+            <div class="dataEntryHorizontal">
+                <p>LinkedIn:</p>
+                <input class="flatInput" placeholder="Your LinkedIn profile"/>
+            </div>
+            <p>*Your details will be cross checked for matching data on our student details server.</p>
+            <input id="privacyPolicyCheckbox" type="checkbox">
+            <label for="privacyPolicyCheckbox">I understand and agree to the policy.</label><br>
+            <button class="minimalButton" style="background-color: rgba(255,255,255,0.1);">Click here to register</button>
+        </div>
+    </div>
+</body>
+</html>
